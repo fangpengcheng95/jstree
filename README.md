@@ -2,13 +2,13 @@
 - bug:
 <div align="center">
   <img src="/jsTree-3.1.0 origin/jsTree-bug.png" width="700px" />
-  <p>Example Mask R-CNN output.</p>
+  <p>One bug of jsTree 3.1.0.</p>
 </div>
 
 - bug solved:
 <div align="center">
   <img src="/jsTree-3.1.0 changed/jsTree-bug-solved.png" width="700px" />
-  <p>Example Mask R-CNN output.</p>
+  <p>solved this bug</p>
 </div>
 # jstree
 
