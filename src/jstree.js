@@ -2516,7 +2516,13 @@
 			}
 			node.id = obj.id;
 			node.className = c;
-			c = ( obj.state.selected ? ' jstree-clicked' : '') + ( obj.state.disabled ? ' jstree-disabled' : '');
+			//if the child checkbox is disabled,when we check his parent checkbox,the child checkbox should not be checked.
+			if( !obj.state.disabled ){
+				c = ( obj.state.selected ? ' jstree-clicked' : '') + ( obj.state.disabled ? ' jstree-disabled' : '');
+			} else {
+				c = ( obj.state.disabled ? ' jstree-disabled' : '' );
+			}
+			
 			for(j in obj.a_attr) {
 				if(obj.a_attr.hasOwnProperty(j)) {
 					if(j === 'href' && obj.a_attr[j] === '#') { continue; }
