@@ -1,5 +1,5 @@
 ## solved a bug of jsTree plugin(3.1.0). jsTree 3.3.5 which is the latest plugin also has this bug.
-![image](jsTree-3.1.0 origin/jsTree-bug.png)
+![Alt text](/jsTree-3.1.0 origin/jsTree-bug.png)
 
 # jstree
 
